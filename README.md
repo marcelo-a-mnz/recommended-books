@@ -1,3 +1,87 @@
-# 📚 Recommended Books – Seu Portal de Descobertas Literárias
+# 📚 Recommended Books – Seu Portal de Literatura
 
-O Recommended Books é um site desenvolvido em **React** para explorar livros, autores e gêneros. Os usuários podem visualizar detalhes como sinopse, preço médio e links para compra. Para rodar o projeto, verifique se o [Node.js](https://nodejs.org/) está instalado em sua máquina. Primeiro, clone o repositório com o comando `git clone https://github.com/seu-usuario/recommended-books.git`, em seguida, acesse a pasta do projeto com `cd recommended-books`. Instale as dependências com `npm install` e, para iniciar o projeto, utilize o comando `npm start`. Após isso, acesse o site no navegador em [http://localhost:3000](http://localhost:3000). A estrutura do projeto é composta por pastas como `node_modules/`, `public/` (que contém o `index.html`), e `src/`, onde estão os componentes reutilizáveis, páginas principais e serviços para requisições à API. As tecnologias utilizadas incluem [React](https://react.dev/) para a construção das interfaces, [TypeScript](https://www.typescriptlang.org/) para tipagem estática, [Axios](https://axios-http.com/) para requisições HTTP e [React Router](https://reactrouter.com/) para navegação entre páginas. Os scripts disponíveis são `npm start`, que inicia o projeto em modo de desenvolvimento, e `npm run build`, que gera uma versão otimizada para produção. Para contribuir com o projeto, faça um **fork** do repositório, crie uma **branch** com o comando `git checkout -b minha-feature`, faça o commit das alterações com `git commit -m "feat: Adiciona nova funcionalidade"` e envie suas mudanças com `git push origin minha-feature`.
+Uma plataforma desenvolvida em **React** para descobrir livros, autores e gêneros. Os usuários podem consultar detalhes como resumos, preços médios e links para aquisição.
+
+---
+
+## 🚀 Início Rápido
+
+### ✅ Pré-requisitos
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
+
+### 🔧 Como Executar o Projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/marcelo-a-mnz/recommended-books.git
+```
+
+2. Acesse o diretório:
+
+```bash
+cd project-books
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm start
+```
+
+Acesse o site no navegador: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+project-books/
+├── node_modules/
+├── public/
+│   └── index.html
+└── src/
+    ├── components/    → Componentes reutilizáveis (ex.: Card de livro, Navbar)
+    ├── pages/         → Páginas principais (ex.: Home, Detalhes do Livro)
+    ├── services/      → Requisições à API (ex.: Axios)
+    ├── App.tsx        → Componente principal
+    └── index.tsx      → Ponto de entrada do React
+```
+
+---
+
+## 🛠️ Principais Tecnologias
+
+- [React](https://react.dev/) – Biblioteca para construção de interfaces.  
+- [TypeScript](https://www.typescriptlang.org/) – Tipagem estática para mais segurança no código.  
+- [Axios](https://axios-http.com/) – Requisições HTTP para consumo de APIs.  
+- [React Router](https://reactrouter.com/) – Navegação entre páginas.  
+
+---
+
+## 📌 Scripts Disponíveis
+
+- `npm start` – Inicia o projeto em modo de desenvolvimento.  
+- `npm run build` – Cria uma versão otimizada para produção.  
+
+---
+
+## 📄 Contribuição
+
+1. Faça um **fork** do repositório.  
+2. Crie uma **branch**: `git checkout -b minha-feature`.  
+3. Commit suas alterações: `git commit -m "feat: Adiciona nova funcionalidade"`.  
+4. Envie suas mudanças: `git push origin minha-feature`.  
+
+
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Nenhum arquivo escolhido
+Attach files by dragging & dropping, selecting or pasting them.
+Editing project-books/README.md at main · marcelo-a-mnz/recommended-books
+>>>>>>> (Subindo repositório)
